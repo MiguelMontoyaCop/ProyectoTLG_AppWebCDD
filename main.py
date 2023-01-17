@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
+#import numpy as np
 import matplotlib.pyplot as plt
 
 st.title("Conociendo el desempeño de los colaboradores del área de Marketing de Socialize your Knowledge")
@@ -61,3 +61,10 @@ plt.xlabel('Promedio de horas trabajadas')
 plt.ylabel('Puntaje de desempeño')
 plt.title('Relación del promedio de horas trabajadas versus el puntaje de desempeño')
 st.pyplot(fig4)
+
+# Conclusión sobre el análisis mostrado en la aplicación web
+st.markdown('En base a los datos mostrados en los gráficos y estadísticas, se pueden observar las siguientes conclusiones: '
+            '- Los puntajes de desempeño no se distribuyen de manera equitativa entre los empleados, concentrándose la mayor parte en el puntaje de desempeño 3. '
+            '- El promedio de horas trabajadas por los empleados es similar tanto para hombres como para mujeres. '
+            '- La edad de los empleados no parece estar relacionada de manera significativa con el salario que reciben. '
+            '- Se observa una relación clara entre el promedio de horas trabajadas y el puntaje de desempeño de los empleados. ')
